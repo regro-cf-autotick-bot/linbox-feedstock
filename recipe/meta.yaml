@@ -14,7 +14,7 @@ source:
     - ntl.patch
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage("linbox", "x.x") }}
