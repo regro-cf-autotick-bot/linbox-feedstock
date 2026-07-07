@@ -20,23 +20,9 @@ chmod +x configure
     --prefix="$PREFIX" \
     --with-default="$PREFIX" \
     --libdir="$PREFIX/lib" \
-    --enable-sage \
-    --disable-openmp \
-    --enable-sse \
-    --enable-sse2 \
-    --disable-sse3 \
-    --disable-ssse3 \
-    --disable-sse41 \
-    --disable-sse42 \
-    --disable-avx \
-    --disable-avx2 \
-    --disable-fma \
-    --disable-fma4 \
     --without-ocl \
     --without-fplll \
     --with-iml="$PREFIX" \
-    --with-m4ri="$PREFIX" \
-    --with-m4rie="$PREFIX" \
     --with-ntl="$PREFIX"
 
 make -j${CPU_COUNT}
